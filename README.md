@@ -28,3 +28,6 @@ The widget is organized into three tabs:
    - A smart AI-based chat agent will be trained on support articles and FAQs. It will provide instant assistance and suggestions based on user queries, effectively streamlining the support experience. The AI will help handle common issues and guide users through troubleshooting steps, improving response times and user satisfaction.
 ### 3. **Push Notification**
    - A push notification will be sent to the user to alert them about new messages if they are away from the screen.
+
+## Demo:
+https://youtu.be/Qt4obg7tvp4
