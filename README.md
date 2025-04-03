@@ -2,7 +2,7 @@
 
 A menu-based chat widget, developed using pure JavaScript, HTML, CSS, and TailwindCSS, with Webpack used for the build process.
 
-## Architecture
+## Flow
 [User's Website] --> [JavaScript Initiator] --> Creates an iFrame and loads the widget --> [Chat Widget] --> Communicates via WebSocket/REST API --> [Backend Server] --> [Database]
 
 
