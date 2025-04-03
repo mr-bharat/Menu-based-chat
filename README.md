@@ -1,6 +1,30 @@
 # Menu-based Chat Widget
 
-A menu-based chat widget developed using pure JavaScript, HTML, CSS, and TailwindCSS, with Webpack used for the build process.
+A menu-based chat widget, developed using pure JavaScript, HTML, CSS, and TailwindCSS, with Webpack used for the build process.
+
+## Architecture
+[User's Website]
+      |
+  [JavaScript CDN] ----> Initiates widget
+      |
+  Creates iframe   ----> Loads widget code into an iframe
+      |
+  ------------------
+  | [Chat Widget (iframe)] 
+  ------------------
+      |
+  Communicates via WebSocket/REST API
+      |
+  --------------------
+ | [Backend Server]  
+  --------------------
+      |
+  Stores chat data
+      |
+  ---------------
+ | [Database]   
+  ---------------
+
 
 ## Features:
 ### 1. **Conversation History Storage**
